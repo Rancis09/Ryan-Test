@@ -1,0 +1,334 @@
+.first-nav{
+    border: none;
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    gap: 10px;
+}
+
+.first-nav-logo img{
+    height: 13vh;
+    width: 12vh;
+    margin-top: 1.5vh;
+    margin-left: 20vh;
+}
+
+.first-nav-title .p1{
+    font-size: 8vh;
+    font-weight: bolder;
+    margin-top: 1.4vh;
+    color: rgb(243,148,30);
+}
+
+.first-nav-title1 .p2{
+    font-size: 3.2vh;
+    font-style: italic;
+    margin-left: 10vh;
+    color: rgb(175, 170, 170);
+}
+
+.second-nav{
+    border: none;
+    background-color: rgb(87, 85, 85);
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    place-content: center;
+}
+
+.second-nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.second-nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 1.3vh;
+}
+  
+.second-nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15vh;
+    font-size: 20px;
+}
+
+.details{
+    margin-top: 5vh;
+    margin-left: 29.3rem;
+}
+
+.title input{
+    height: 5vh;
+    width: 90vh;
+    text-indent: 2.5vh;
+}
+
+.title textarea{
+    margin-top: 30px;
+    height: 7vh;
+    width: 90vh;
+    resize: none;
+}   
+.description textarea{
+    height: 20vh;
+    width: 90vh;
+    resize: none;
+}
+.addcourse-label_dets{
+    height: 1vh;
+    text-indent: 0.5vh;
+    margin-top: 6vh;
+    margin-left: -1%;
+    font-size: 20px;
+
+}
+.addcourse-label{
+        height: 1vh;
+        text-indent: 0.5vh;
+        margin-top: 6vh;
+        margin-left: 27%;
+        font-size: 20px;
+
+}
+.addcourse-row{
+    display: flex;
+}
+
+/* Add this to your existing CSS file or create a new one */
+.weekly-tile {
+    border: 1px solid #ccc;
+    
+  background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* Add more styling as needed */
+  }
+  
+.Forms ::placeholder{
+    font-size: 3vh;
+}
+/* week */
+.addcourse-col{ 
+    margin-top: 5vh;
+    border: 1px solid black;
+    min-height: 10rem;
+    width: 90vh;
+
+    
+    border-radius: 5px;
+    margin-left: 29.3rem;
+    margin-right: 33.5rem;
+
+}
+
+/* AddCourse.css or your preferred CSS file */
+
+.ACsuccess-message {
+    color: #28a745; /* Green color for success messages */
+    background-color: #d4edda; /* Light green background */
+    border: 1px solid #c3e6cb; /* Border color */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  /* AddCourse.css or your preferred CSS file */
+
+.ACupload-button {
+    background-color: #3498db; /* Blue color for the button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  .ACupload-button:hover {
+    background-color: #2980b9; /* Darker blue color on hover */
+  }
+  
+  
+
+.Forms .form-input1{
+    height: 45px;
+    width: 89.8vh;
+    border: 1px solid black;
+    background-color:rgb(175, 170, 170);
+    font-size: 30px;
+    text-indent: 2vh;
+    text-align: justify, center;
+    
+  margin-bottom: 20px;
+}
+
+
+.butts button {
+    
+    margin-left: 29.3rem;
+
+    background-color: rgb(243, 148, 30);
+    color: #fff;
+}
+.butts .add{
+    margin-top: 15.5vh;
+    margin-left: 2.5vh;
+    height:5vh;
+    width: 17.2vh;
+    font-size: 2.5vh;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.butts .add:hover{
+    background-color: rgb(200, 120, 20);}
+
+.addfile{
+    display: flex;
+    gap: 5vh
+    ;
+}
+/* AddCourse.css or your preferred CSS file */
+
+.PdfFilename {
+    height: 40px; /* Adjust the height as needed */
+    width: 100%; /* Take up the full width of the container */
+    padding: 10px; /* Padding for spacing */
+    font-size: 16px; /* Adjust the font size as needed */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width and height */
+    margin-bottom: 10px; /* Margin at the bottom for spacing */
+  }
+  
+  .PdfFilename::placeholder {
+    color: #aaa; /* Placeholder color */
+  }
+  
+  .PdfFilename:focus {
+    outline: none; /* Remove the default focus outline */
+    border-color: #3498db; /* Border color when focused */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Box shadow when focused */
+  }
+  
+
+/* .PdfFilename{
+    border: 1px solid rgb(133, 131, 131);
+    margin-left: 5vh;
+    height: 4vh;
+    width: 50vh;
+    text-align: justify, center;
+} */
+
+/* .addfile .inputfiles input{
+    margin-left: 5vh;
+    padding: 3vh;
+    height: 4vh;
+    width: 50vh;
+} */
+
+/* AddCourse.css or your preferred CSS file */
+
+.inputfile {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .inputfile input {
+    display: none;
+  }
+  
+  .inputfile label {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .inputfile label:hover {
+    background-color: #2980b9;
+  }
+  
+  .inputfile span {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  /* Style for displaying the selected file name */
+  .filename {
+    margin-top: 5px;
+  }
+  
+
+    /* quiz */
+.createQuizContainer{
+    
+    min-height: 23vh;
+    width: 90vh;
+    resize: none;
+    
+}
+.createQuizMargin{
+    border: 1px solid black;
+    margin-top: 5vh;
+    
+  margin-bottom: 20px;
+    
+    border-radius: 5px;
+    margin-left: 29.3rem;
+    margin-right: 33.5rem;
+}
+.QuizButtonsContainer{
+    margin-bottom: 7.5px;
+}
+
+/* AddCourse.css or your preferred CSS file */
+
+.quiz-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  .quiz-container input::placeholder {
+    color: #aaa;
+  }
+  
+  .quiz-container input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .quiz-container input[type="text"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+
+
+
+  /* /week */
+
+  

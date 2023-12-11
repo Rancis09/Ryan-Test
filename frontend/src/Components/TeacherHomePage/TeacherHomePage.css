@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.teacherhomepage{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;   
+  background-image: url('../Assets/Cour-Cert\ User\ Interface\ Background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+nav .navTeacherHomepage{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0 30px;
+  background-color: rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  width: 95%;
+  height: 80px;
+  border-radius: 100px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+}
+.app-logo1{
+  flex-basis: 10%;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.app-logo1 img{
+  width: 150px;
+  height: auto;
+}
+
+.nav-links1{
+  display: flex;
+  gap: 10px;
+  text-align: right;
+  margin: 0 10px;
+}
+
+.nav-links1 ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-links1 ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link2 ul li a:hover{
+  padding: 7px;
+  border-radius: 5px;
+  background: rgba(80, 80, 238);
+  color: #fff;
+  text-decoration: none;
+}
+
+.searchBar{
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Display child elements in a column */
+  margin: 0 10px;
+}
+
+#search-input{
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+}
+
+#search-button{
+  background-color: orange;
+  color: #fff;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#search-button:hover{
+  background-color: #0055b3;
+}
+
+.addCourse {
+  padding-left: 200px;
+  padding-top: 600px;
+}
+
+.addCourse button{
+  background-color: orange;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.addCourse button:hover {
+  background-color: #0056b3;
+}
+
+Dialog{
+  height: 20vh;
+  width: 20vh;
+}
+
+
+.search-results {
+  margin-top: 180px;
+  color: #fff;
+}
+
+.search-results h2 {
+  font-size: 12px;
+}
+
+.search-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.search-results li {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.search-results li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-results li a:hover {
+  padding: 7px;
+  border-radius: 5px;
+  background: rgba(80, 80, 238);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styles for No Results Found */
+.no-results-found {
+  text-align: justify;
+  margin-top: 100px;
+  color: white;
+}
+
+.no-results-found p {
+  font-size: 12px;
+}

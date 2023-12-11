@@ -1,0 +1,96 @@
+.NavbarItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 30px;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    width: 95%;
+    height: 80px;
+    border-radius: 100px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+}
+
+.A-and-L {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+img {
+    justify-self: start;
+    cursor: pointer;
+    width: 200px;
+    height: auto;
+}
+
+.logo {
+    right: 10px;
+
+}
+
+
+.app-title {
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 120px;
+    list-style: none;
+    align-items: center;
+    justify-content: end;
+}
+
+/* ul:hover li {
+    opacity: 0.2;
+    filter: blur(0.0625rem);
+}
+ul li:hover {
+    opacity: 1;
+    filter: blur(0rem);
+} */
+
+.nav-links {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.7rem, 1rem;
+    white-space: nowrap;
+}
+
+.nav-links-LogIn {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    background-color: #1E90FF;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #222;
+}
+
+.nav-links i{
+    padding-right: 10px;
+}
+
+.nav-links:hover {
+    background: rgba(80, 80, 238);
+    padding: 5px;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+

@@ -1,0 +1,265 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.studenthomepage{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;   
+  background-image: url('../Assets/Cour-Cert\ User\ Interface\ Background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+nav .navStudentHomepage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 30px;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    width: 95%;
+    height: 80px;
+    border-radius: 100px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+}
+
+.app-logo1{
+  flex-basis: 10%;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.app-logo1 img{
+  width: 200px;
+  height: auto;
+}
+
+.searchBar1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* Display child elements in a column */
+  margin: 0 10px;
+}
+
+#search-input1{
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  
+}
+
+#search-button1{
+  background-color: orange;
+  color: #fff;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#search-button1:hover{
+  background-color: #0055b3;
+}
+
+.nav-link2{
+  display: flex;
+  gap: 10px;
+  text-align: right;
+  margin: 0 10px;
+}
+
+.nav-link2 ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-link2 ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link2 ul li a:hover{
+  padding: 7px;
+  border-radius: 5px;
+  background: rgba(80, 80, 238);
+  color: #fff;
+  text-decoration: none;
+}
+
+.addcourse-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh; /* Adjust the top margin for spacing */
+}
+
+.search-results {
+  margin-top: 180px;
+  color: #fff;
+}
+
+.search-results h2 {
+  font-size: 12px;
+}
+
+.search-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.search-results li {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.search-results li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-results li a:hover {
+  padding: 7px;
+  border-radius: 5px;
+  background: rgba(80, 80, 238);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styles for No Results Found */
+.no-results-found {
+  text-align: justify;
+  margin-top: 100px;
+  color: white;
+}
+
+.no-results-found p {
+  font-size: 12px;
+}
+
+.app-cards {
+  margin-top: 20vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: none;
+  list-style-type: none;
+  justify-items: center;
+}
+
+.app-cards-card {
+  width: 500px;
+  height: 20vh;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  transition: all 0.9s ease;
+  background-color: white;
+}
+
+
+.app-cards-title{
+  margin: 10px;
+}
+
+.app-cards-title h6{
+  background-color: rgb(224, 223, 223);
+  height: 5vh;
+  text-align: center;
+  padding-top: 10px;
+  cursor: pointer;
+  font-size: 23px;
+  color: black;
+}
+
+.app-cards-title a:link {
+  text-decoration: none;
+  color: black;
+}
+.app-cards-title a:visited {
+  text-decoration: none;
+  color: black;
+} 
+.app-cards-title a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.app-cards-description h5{
+  margin: 10px;
+  text-indent: 20px;
+  font-size: 18px;
+  color:rgb(54, 53, 53);
+}
+
+
+.app-cards-seemore p{
+  text-align: center;
+  text-indent: 20px;
+  color:rgb(54, 53, 53);
+  font-size: 50px;
+  font-weight: 400;
+  color: black;
+  margin-top: 67px;
+  margin-left: 50px;
+}
+
+.app-cards-seemoreimage img{
+  height: 15vh;
+  width: 15vh;
+  margin-left: 38%;
+  margin-top: 25px;
+}
+
+.app-cards-seemoreimage img:hover{
+  transform: scale(1.12);
+}
+
+.app-cards-flex{
+  display: flex;
+}
+
+.app-cards-card button{
+  margin-left: 10vh;
+  margin-top: 2.5vh;
+  border-radius: 50%;
+  height: 15vh;
+  width: 15vh;
+  background-image: url(addlogo.png);
+  background-size: 15vh, 15vh;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  cursor: pointer;
+  }
+
+.app-cards-cards button:hover {
+  transform: scale(1.12);
+}
+
+.app-cards-buttons{
+  font-size: 50px;
+}
+
+.app-cards-addcourse p{
+  text-align: center;
+  text-indent: 20px;
+  color:rgb(54, 53, 53);
+  font-size: 40px;
+  font-weight: 400;
+  color: black;
+  margin-top: 75px;
+}
+
+

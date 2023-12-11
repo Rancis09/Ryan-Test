@@ -1,0 +1,41 @@
+.Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    min-height: 100vh;
+    text-align: center;
+    width: 85vw;
+    max-width: 1900px;
+    margin: 0rem auto;
+}
+.LearnMore-background-container {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -2;
+    overflow: hidden;
+}
+.LMBg {
+    height: 150%;
+    width: 100%;
+    object-fit: cover;
+}
+.section-context {
+    margin-top: 0;
+    margin-bottom: 5rem;
+}
+.section-context h1 {
+    font-weight: bold;
+    margin-top: 2rem;
+    font-size: clamp(2rem, 3vw, 4rem);
+    color: #4c4c4c;
+}
+.section-context p {
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: clamp(1rem,2vw,1.2rem);
+    color: black;
+}

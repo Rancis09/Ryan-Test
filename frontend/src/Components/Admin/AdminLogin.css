@@ -1,0 +1,107 @@
+.Admin-Container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    height: 100vh;
+    width: 100%;
+   
+}
+
+@media(min-width: 640px) {
+    .sm\:grid-cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sm\:block {
+        display: block;
+    }
+}
+
+.Admin-background-control {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Admin-input-control {
+    background-color: #2d3748;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 850px;
+    
+}
+
+.Admin-input-container {
+    background-color: #111827;
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+}
+
+.Admin-header {
+    font-size: 2.25rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.input-text {
+    display: flex;
+    flex-direction: column;
+    color: #9CA3AF;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.input-t {
+    height: 3rem;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    background-color: #4B5563;
+    margin-top: 0.5rem;
+    outline: none;
+    color: #b0b7c4;;
+    border-color: rgb(137, 137, 155); 
+
+}
+.Admin-checkbox {
+    display: flex;
+    justify-content: space-between;
+    color: #9CA3AF;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+.Admin-c1 {
+    display: flex;
+    align-items: center;
+}
+.Admin-c2 {
+    margin-right: 0.5rem;
+}
+.Admin-button {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding: 0.7rem 185px;
+    background-color: #38a1aa;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0, 0.06);
+    height: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.Admin-button:hover {
+    background-color: #348890;
+}
+.FP {
+    text-decoration: none;
+    color: #9CA3AF;
+}

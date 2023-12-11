@@ -1,0 +1,173 @@
+.courseview_navbarnotincluded {
+  border: 1px solid #ddd;
+  position: relative;
+
+}
+.containerss {
+  min-height: 23vh;
+  margin-top: 6vh;
+  margin-left: 1%;
+  margin-right: 53.5%;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  /* Add any additional styling you want */
+}
+
+.coursetitle{
+    height: 1vh;
+    width: 90vh;
+    text-indent: 0.5vh;
+    margin-top: 6vh;
+    margin-left: .5%;
+    padding: 11px;
+    font-size: 30px;
+}
+/* box1 */
+.coursedescriptions p{
+    padding: 10px;
+    width: 90vh;
+    min-height: 23vh;
+    margin-top: 6vh;
+    margin-left: 5%;
+    text-indent: 2vh;
+    margin-bottom: 3vh;
+    
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+}
+/* box2 */
+.cotainerss{
+    
+  border: 1px solid #ddd;
+    margin-top: 3vh;
+    margin-left: 5%;
+    margin-bottom: 3vh;
+    width: 90vh;
+    height: auto;
+}
+
+.containerss .weeknumbers{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.containerss .weeklyfiles{
+    
+  border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* //quiz */
+
+/* box3 */
+
+.courseQuiz {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-left: auto;
+}
+
+.QuizTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.QuizTitle h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.QuizTitle::after {
+  content: ''; /* Empty content */
+  display: block;
+  width: 100%; /* Line spans the entire width of .courseQuiz */
+  height: 2px; /* Line thickness */
+  background-color: #333; /* Line color */
+  margin-top: 10px; /* Adjust as needed for spacing between QuizTitle and underline */
+}
+.choices-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.choices-list li {
+  margin-bottom: 20px;
+}
+
+.choices-list p { /*question*/
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.choices-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.choices-list li input[type="radio"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.Quiz_submit-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Quiz_submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.Quiz_retake-button {
+  display: none;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745; /* Green color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Quiz_retake-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.Quiz_submit-button:disabled + .Quiz_retake-button {
+  display: inline-block;
+}
+
+
+
+/* pdf */
+
+.weeklyfiles {
+  cursor: pointer; /* Add pointer cursor to indicate it's clickable */
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.weeklyfiles:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
+}

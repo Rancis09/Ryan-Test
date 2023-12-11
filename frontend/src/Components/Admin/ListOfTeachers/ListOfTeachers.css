@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAF5EF;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #007bff;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  h3 {
+    color: #555;
+  }
+  
+  .teacher {
+    background-color: #FFFFE0;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .teacher-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    font-size: 14px; 
+    padding: 8px 8px; 
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s; 
+  }
+  
+  button:hover {
+    background-color: #C04000; 
+    color: #fff; 
+  }
+  .teachers-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
